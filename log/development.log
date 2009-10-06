@@ -39,3 +39,109 @@ Migrating to CreateStudents (20091006185924)
   [4;36;1mSQL (1.3ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
   [4;35;1mSQL (2.9ms)[0m   [0mdescribe `students`[0m
   [4;36;1mSQL (0.6ms)[0m   [0;1mSHOW KEYS FROM `students`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStudent Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStudent Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStudent Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Create (0.4ms)[0m   [0mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:20:58', '2009-10-06 19:20:58', '--- :female\n', 'Bartell', 'Delfina')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Create (0.2ms)[0m   [0;1mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:20:58', '2009-10-06 19:20:58', '--- :male\n', 'Schmeler', 'Merlin')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Create (0.2ms)[0m   [0mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:20:58', '2009-10-06 19:20:58', '--- :male\n', 'Lockman', 'Ray')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Create (0.2ms)[0m   [0;1mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:20:58', '2009-10-06 19:20:58', '--- :female\n', 'Konopelski', 'Greg')[0m
+  [4;35;1mSQL (0.8ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Create (0.2ms)[0m   [0mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:20:58', '2009-10-06 19:20:58', '--- :female\n', 'Klein', 'Santino')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Create (0.2ms)[0m   [0;1mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:20:58', '2009-10-06 19:20:58', '--- :male\n', 'Murazik', 'Keyshawn')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Create (0.2ms)[0m   [0mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:20:58', '2009-10-06 19:20:58', '--- :female\n', 'Denesik', 'Asha')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Create (0.2ms)[0m   [0;1mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:20:58', '2009-10-06 19:20:58', '--- :female\n', 'Jones', 'Maud')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Create (0.2ms)[0m   [0mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:20:58', '2009-10-06 19:20:58', '--- :female\n', 'Olson', 'Ivory')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Create (0.2ms)[0m   [0;1mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:20:58', '2009-10-06 19:20:58', '--- :female\n', 'Berge', 'Itzel')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+  [4;35;1mStudent Load (0.7ms)[0m   [0mSELECT * FROM `students` ORDER BY students.id DESC LIMIT 1[0m
+  [4;36;1mStudent Load (0.6ms)[0m   [0;1mSELECT * FROM `students` [0m
+  [4;35;1mSQL (0.2ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Destroy (0.3ms)[0m   [0;1mDELETE FROM `students` WHERE `id` = 1[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Destroy (0.2ms)[0m   [0mDELETE FROM `students` WHERE `id` = 2[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Destroy (0.1ms)[0m   [0;1mDELETE FROM `students` WHERE `id` = 3[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Destroy (0.2ms)[0m   [0mDELETE FROM `students` WHERE `id` = 4[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Destroy (0.2ms)[0m   [0;1mDELETE FROM `students` WHERE `id` = 5[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Destroy (0.2ms)[0m   [0mDELETE FROM `students` WHERE `id` = 6[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Destroy (0.1ms)[0m   [0;1mDELETE FROM `students` WHERE `id` = 7[0m
+  [4;35;1mSQL (0.5ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Destroy (0.2ms)[0m   [0mDELETE FROM `students` WHERE `id` = 8[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Destroy (0.2ms)[0m   [0;1mDELETE FROM `students` WHERE `id` = 9[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Destroy (0.1ms)[0m   [0mDELETE FROM `students` WHERE `id` = 10[0m
+  [4;36;1mSQL (0.5ms)[0m   [0;1mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Create (0.3ms)[0m   [0mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:22:38', '2009-10-06 19:22:38', 'male', 'Bins', 'Savanna')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Create (0.2ms)[0m   [0;1mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:22:38', '2009-10-06 19:22:38', 'female', 'Ruecker', 'Candice')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Create (0.2ms)[0m   [0mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:22:38', '2009-10-06 19:22:38', 'female', 'Gleichner', 'Zachariah')[0m
+  [4;36;1mSQL (0.8ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Create (0.2ms)[0m   [0;1mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:22:38', '2009-10-06 19:22:38', 'male', 'Armstrong', 'Rebecca')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Create (0.2ms)[0m   [0mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:22:38', '2009-10-06 19:22:38', 'male', 'Torphy', 'Arlie')[0m
+  [4;36;1mSQL (0.7ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Create (0.2ms)[0m   [0;1mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:22:38', '2009-10-06 19:22:38', 'male', 'Bechtelar', 'Keaton')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Create (0.2ms)[0m   [0mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:22:38', '2009-10-06 19:22:38', 'male', 'Kris', 'Hailey')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Create (0.2ms)[0m   [0;1mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:22:38', '2009-10-06 19:22:38', 'male', 'Reynolds', 'Madyson')[0m
+  [4;35;1mSQL (0.7ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mBEGIN[0m
+  [4;35;1mStudent Create (0.2ms)[0m   [0mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:22:38', '2009-10-06 19:22:38', 'male', 'McGlynn', 'Nikki')[0m
+  [4;36;1mSQL (0.6ms)[0m   [0;1mCOMMIT[0m
+  [4;35;1mSQL (0.1ms)[0m   [0mBEGIN[0m
+  [4;36;1mStudent Create (0.2ms)[0m   [0;1mINSERT INTO `students` (`created_at`, `updated_at`, `gender`, `last_name`, `first_name`) VALUES('2009-10-06 19:22:38', '2009-10-06 19:22:38', 'male', 'Smitham', 'Mackenzie')[0m
+  [4;35;1mSQL (0.6ms)[0m   [0mCOMMIT[0m
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+  [4;35;1mStudent Load (0.3ms)[0m   [0mSELECT * FROM `students` [0m
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
