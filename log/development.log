@@ -1936,3 +1936,21 @@ Rendering template within layouts/application
 Rendering students/index
   [4;36;1mStudent Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
 Completed in 12ms (View: 5, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:40:45) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:41:14) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]

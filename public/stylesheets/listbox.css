@@ -11,3 +11,5 @@
     color: white; }
   .list_box .list_item.hovered_item {
     background-color: #ddd; }
+  .list_box .list_item.selected_item.hovered_item {
+    background-color: #3160A5; }
