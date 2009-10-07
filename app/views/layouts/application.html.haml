@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title Scholar 1.0
+    = stylesheet_link_tag 'application', 'top_menu', 'bottom_menu', 'listbox', 'student', :cache => true
+    = javascript_include_tag 'listbox', :defaults
+
+  %body
+    .header
+      .top_menu
+    .content
+      = yield
+    .footer
+      .bottom_menu

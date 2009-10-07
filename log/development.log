@@ -145,3 +145,1794 @@ Migrating to CreateStudents (20091006185924)
   [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
   [4;35;1mStudent Load (0.3ms)[0m   [0mSELECT * FROM `students` [0m
   [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:27:52) [GET]
+
+ActionView::MissingTemplate (Missing template students/index.erb in view path app/views):
+  haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:28:15) [GET]
+Rendering template within layouts/application
+Rendering students/index
+Completed in 10ms (View: 9, DB: 0) | 200 OK [http://scholar.local/students]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-06 21:29:15) [GET]
+
+NoMethodError (undefined method `camelize' for :students:Symbol):
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+/!\ FAILSAFE /!\  Tue Oct 06 21:29:15 +0200 2009
+  Status: 500 Internal Server Error
+  
+ActionView::TemplateError (undefined method `humanize' for :students:Symbol) in /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/templates/rescues/diagnostics.erb:
+
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+    passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+    passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+
+    In /library/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/templates/rescues/diagnostics.erb
+
+
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+    passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+    passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-06 21:29:25) [GET]
+
+NoMethodError (undefined method `camelize' for :students:Symbol):
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+/!\ FAILSAFE /!\  Tue Oct 06 21:29:25 +0200 2009
+  Status: 500 Internal Server Error
+  
+ActionView::TemplateError (undefined method `humanize' for :students:Symbol) in /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/templates/rescues/diagnostics.erb:
+
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+    passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+    passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+
+    In /library/ruby/gems/1.8/gems/actionpack-2.3.2/lib/action_controller/templates/rescues/diagnostics.erb
+
+
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+    passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+    passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:29:42) [GET]
+Rendering template within layouts/application
+Rendering students/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:31:20) [GET]
+Rendering template within layouts/application
+Rendering students/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:32:33) [GET]
+Rendering template within layouts/application
+Rendering students/index
+ERROR: compiling _run_haml_app47views47layouts47application46html46haml RAISED compile error
+/Users/gary/Developer/Code/rails/scholar/app/views/layouts/application.html.haml:7: syntax error, unexpected ':', expecting '}'
+...heet_link_tag 'appliciation' :cache => true
+                              ^
+Function body:           def _run_haml_app47views47layouts47application46html46haml(local_assigns)
+            old_output_buffer = output_buffer;;extend Haml::Helpers;_hamlout = @haml_buffer = Haml::Buffer.new(@haml_buffer, {:attr_wrapper=>"'", :autoclose=>["meta", "img", "link", "br", "hr", "input", "area", "param", "col", "base"], :ugly=>false, :format=>:xhtml, :preserve=>["textarea", "pre"], :encoding=>nil});_erbout = _hamlout.buffer;__in_erb_template = true;;
+
+
+
+
+
+_hamlout.push_text("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Transitional//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd\">\n<html>\n  <head>\n    <title>Scholar 1.0</title>\n    #{_hamlout.adjust_tabs(2); haml_temp =  stylesheet_link_tag 'appliciation' :cache => true
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </head>\n  <body>\n    #{haml_temp =  yield
+_hamlout.format_script_false_false_false_false_false_true_false((haml_very_temp = haml_temp; haml_temp = nil; haml_very_temp));}\n  </body>\n</html>\n", -2, false);@haml_buffer = @haml_buffer.upper;_erbout;
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/gary/Developer/Code/rails/scholar/app/views/layouts/application.html.haml:12:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/template.rb:194:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:260:in `render_without_haml'
+/Users/gary/Developer/Code/rails/scholar/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:347:in `_render_with_layout'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_view/base.rb:257:in `render_without_haml'
+/Users/gary/Developer/Code/rails/scholar/vendor/gems/haml-2.2.6/lib/haml/helpers/action_view_mods.rb:13:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1241:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:937:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1317:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:1323:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/flash.rb:141:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:523:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/filters.rb:606:in `sass_old_process'
+/Users/gary/Developer/Code/rails/scholar/vendor/gems/haml-2.2.6/rails/../lib/sass/plugin/rails.rb:19:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/routing/route_set.rb:433:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:88:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/vendor/rack-1.0.0-git/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/vendor/rack-1.0.0-git/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:162:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+/Library/Ruby/Gems/1.8/gems/passenger-2.2.4/bin/passenger-spawn-server:61
+
+ActionView::TemplateError (compile error
+/Users/gary/Developer/Code/rails/scholar/app/views/layouts/application.html.haml:7: syntax error, unexpected ':', expecting '}'
+...heet_link_tag 'appliciation' :cache => true
+                              ^) on line #7 of app/views/layouts/application.html.haml:
+4:     %title Scholar 1.0
+5:     = stylesheet_link_tag 'appliciation' :cache => true
+6: 
+7:   %body
+8:     = yield
+
+    app/views/layouts/application.html.haml:12:in `compile!'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+    passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+    passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (46.2ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:32:40) [GET]
+Rendering template within layouts/application
+Rendering students/index
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:32:51) [GET]
+Rendering template within layouts/application
+Rendering students/index
+Completed in 3ms (View: 1, DB: 0) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:34:26) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (5.2ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 16ms (View: 7, DB: 6) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:34:33) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 13ms (View: 6, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:35:26) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:36:53) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 13ms (View: 6, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:37:44) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 15ms (View: 9, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:37:53) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:38:00) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 3, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:38:05) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:38:17) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:38:42) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 3, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+/!\ FAILSAFE /!\  Tue Oct 06 21:40:46 +0200 2009
+  Status: 500 Internal Server Error
+  Expected /Users/gary/Developer/Code/rails/scholar/app/helpers/list_box_helper.rb to define ListBoxHelper
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:426:in `load_missing_constant'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:80:in `const_missing'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:92:in `const_missing'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/inflector.rb:361:in `constantize'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/inflector.rb:360:in `each'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/inflector.rb:360:in `constantize'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/core_ext/string/inflections.rb:162:in `constantize'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/helpers.rb:137:in `helper'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/helpers.rb:115:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/helpers.rb:115:in `helper'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/helpers.rb:120:in `helper'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/helpers.rb:115:in `each'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/helpers.rb:115:in `helper'
+    /Users/gary/Developer/Code/rails/scholar/app/controllers/application_controller.rb:5
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:380:in `load_without_new_constant_marking'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:380:in `load_file'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:521:in `new_constants_in'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:379:in `load_file'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:259:in `require_or_load'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:425:in `load_missing_constant'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:80:in `const_missing'
+    /Users/gary/.gem/ruby/1.8/gems/activesupport-2.3.2/lib/active_support/dependencies.rb:92:in `const_missing'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:90:in `dispatch'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:111:in `_call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:82:in `initialize'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:29:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:9:in `cache'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/query_cache.rb:28:in `call'
+    /Library/Ruby/Gems/1.8/gems/activerecord-2.3.2/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/vendor/rack-1.0.0-git/lib/rack/head.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/vendor/rack-1.0.0-git/lib/rack/methodoverride.rb:24:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/params_parser.rb:15:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/rewindable_input.rb:25:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/session/cookie_store.rb:93:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/reloader.rb:9:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/failsafe.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/vendor/rack-1.0.0-git/lib/rack/lock.rb:11:in `call'
+    /Library/Ruby/Gems/1.8/gems/actionpack-2.3.2/lib/action_controller/dispatcher.rb:106:in `call'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:162:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    /Library/Ruby/Gems/1.8/gems/passenger-2.2.4/bin/passenger-spawn-server:61
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:43:03) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 13ms (View: 9, DB: 1) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-06 21:43:10) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+
+ActionView::TemplateError (undefined local variable or method `current_scorecard' for #<ActionView::Base:0x1040fda20>) on line #1 of app/views/students/index.html.haml:
+1: - list_box(@students) do |student|
+2:   %p= student.first_name
+
+    app/helpers/listbox_helper.rb:30:in `remote_action_url'
+    app/helpers/listbox_helper.rb:5:in `list_box'
+    app/helpers/listbox_helper.rb:4:in `each'
+    app/helpers/listbox_helper.rb:4:in `list_box'
+    app/views/students/index.html.haml:1:in `_run_haml_app47views47students47index46html46haml'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+    passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+    passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (48.4ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 07:22:51) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 18ms (View: 12, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 07:35:37) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 14ms (View: 10, DB: 1) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing ApplicationController#index (for 127.0.0.1 at 2009-10-07 07:35:38) [GET]
+
+ActionController::RoutingError (No route matches "/stylesheets/images/top_menu_bg.png" with {:method=>:get}):
+  passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+  passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+  passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+  passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendering rescues/layout (not_found)
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 07:35:43) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 07:35:50) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 07:36:02) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 8ms (View: 1, DB: 1) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 08:38:39) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 08:39:03) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 7ms (View: 1, DB: 1) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 08:39:23) [GET]
+  [4;36;1mStudent Load (0.5ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 7ms (View: 2, DB: 1) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 08:40:33) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 08:42:36) [GET]
+  [4;36;1mStudent Load (0.5ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 67ms (View: 1, DB: 1) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 08:42:57) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 08:43:05) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 6ms (View: 1, DB: 1) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 08:46:12) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 6ms (View: 2, DB: 1) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 11:44:33) [GET]
+  [4;35;1mStudent Load (1.3ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+Completed in 48ms (View: 36, DB: 1) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:45:18) [GET]
+  [4;35;1mStudent Load (9.6ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 469ms (View: 448, DB: 11) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:46:37) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:46:39) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:47:15) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:48:39) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.1ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 12ms (View: 5, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:49:10) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (6.4ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 17ms (View: 6, DB: 7) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:49:26) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:49:56) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:51:37) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:51:38) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 72ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:52:06) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:52:47) [GET]
+  [4;36;1mStudent Load (0.6ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 12ms (View: 5, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:53:40) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:53:41) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:53:52) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (4.3ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 14ms (View: 6, DB: 5) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:54:16) [GET]
+  [4;36;1mStudent Load (0.5ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.3ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:54:42) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:55:47) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:58:26) [GET]
+  [4;35;1mStudent Load (0.5ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mSQL (15.2ms)[0m   [0;1mSHOW TABLES[0m
+  [4;35;1mStudent Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+
+ActionView::TemplateError (undefined method `underscore' for #<Class:0x103b51bf8>) on line #1 of app/views/students/index.html.haml:
+1: - list_box(@students) do |i|
+2:   = i.first_name
+
+    app/helpers/listbox_helper.rb:3:in `list_box'
+    app/views/students/index.html.haml:1:in `_run_haml_app47views47students47index46html46haml'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] lib/haml/helpers/action_view_mods.rb:13:in `render'
+    haml (2.2.6) [v] rails/./lib/sass/plugin/rails.rb:19:in `process'
+    passenger (2.2.4) lib/phusion_passenger/rack/request_handler.rb:91:in `process_request'
+    passenger (2.2.4) lib/phusion_passenger/abstract_request_handler.rb:206:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:376:in `start_request_handler'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:334:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/utils.rb:182:in `safe_fork'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:332:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:162:in `start'
+    passenger (2.2.4) lib/phusion_passenger/railz/application_spawner.rb:213:in `start'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:261:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:126:in `lookup_or_add'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:255:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:80:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server_collection.rb:79:in `synchronize'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:254:in `spawn_rails_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:153:in `spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/spawn_manager.rb:286:in `handle_spawn_application'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `__send__'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:351:in `main_loop'
+    passenger (2.2.4) lib/phusion_passenger/abstract_server.rb:195:in `start_synchronously'
+
+Rendered rescues/_trace (48.8ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:58:41) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 426ms (View: 419, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 17:59:35) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 426ms (View: 419, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:00:11) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 14ms (View: 7, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:00:12) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:00:34) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 14ms (View: 8, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:00:57) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.2ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 14ms (View: 7, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:01:07) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:01:23) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:01:33) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:01:40) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:01:52) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:02:08) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:02:16) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:02:23) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:02:39) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:02:46) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:02:51) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:02:56) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:03:57) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 71ms (View: 65, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:05:41) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:05:49) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:06:01) [GET]
+  [4;35;1mStudent Load (0.5ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:06:06) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 9ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:06:29) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.8ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:06:53) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:08:45) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:08:53) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:08:57) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 72ms (View: 65, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:09:03) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:09:03) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:09:24) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 5, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:09:31) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:09:34) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:09:55) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:10:03) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:15:01) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.3ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 13ms (View: 7, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:15:02) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:15:07) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:15:25) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 13ms (View: 8, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:15:42) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.3ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 12ms (View: 7, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:15:47) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 13ms (View: 8, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:15:51) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 13ms (View: 8, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:16:57) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:17:05) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 14ms (View: 8, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:17:22) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:17:28) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:17:36) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.4ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:17:40) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:20:07) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 14ms (View: 8, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:20:18) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:20:33) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:20:38) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:20:46) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 72ms (View: 66, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:24:14) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:24:23) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:24:31) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:24:42) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.3ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:24:55) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.7ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 5, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:25:37) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:25:44) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.0ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:25:53) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.0ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:26:03) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:26:09) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 12ms (View: 6, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:26:24) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 14ms (View: 8, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:26:28) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 14ms (View: 8, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:26:33) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 13ms (View: 8, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:27:02) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:27:21) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.9ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:27:30) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:27:37) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:27:42) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:28:07) [GET]
+  [4;35;1mStudent Load (0.7ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.6ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 12ms (View: 6, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:28:43) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.9ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:28:45) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.6ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 12ms (View: 5, DB: 3) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:29:06) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.2ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:29:10) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (15.2ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 24ms (View: 4, DB: 16) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:29:24) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:29:53) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.7ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 73ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:30:05) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:30:32) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.1ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:30:58) [GET]
+  [4;36;1mStudent Load (0.5ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.8ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 11ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:32:50) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:33:02) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:33:08) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:36:59) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.6ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:37:05) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:37:24) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.7ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:37:32) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:37:38) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.5ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.2ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:37:42) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.5ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 5, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:37:47) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (1.3ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:37:59) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (1.4ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 2) | 200 OK [http://scholar.local/]
+  [4;35;1mSQL (0.2ms)[0m   [0mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:38:16) [GET]
+  [4;36;1mStudent Load (0.4ms)[0m   [0;1mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;35;1mStudent Columns (2.1ms)[0m   [0mSHOW FIELDS FROM `students`[0m
+Completed in 10ms (View: 4, DB: 3) | 200 OK [http://scholar.local/]
+  [4;36;1mSQL (0.1ms)[0m   [0;1mSET SQL_AUTO_IS_NULL=0[0m
+
+
+Processing StudentsController#index (for 127.0.0.1 at 2009-10-07 18:38:36) [GET]
+  [4;35;1mStudent Load (0.4ms)[0m   [0mSELECT * FROM `students` [0m
+Rendering template within layouts/application
+Rendering students/index
+  [4;36;1mStudent Columns (2.9ms)[0m   [0;1mSHOW FIELDS FROM `students`[0m
+Completed in 12ms (View: 5, DB: 3) | 200 OK [http://scholar.local/]
