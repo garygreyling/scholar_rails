@@ -1,0 +1,29 @@
+//mixins
+=dimensions
+  :height 18px
+  :display block
+
+=active_background_position
+  :background-position 0px -18px
+
+//classes
+.add_button
+  +dimensions
+  :background url('/images/buttons/add.png')
+  :width 34px
+.add_button:active
+  +active_background_position
+
+.cancel_button
+  +dimensions
+  :background url('/images/buttons/cancel.png')
+  :width 48px
+.cancel_button:active
+  +active_background_position
+
+.save_button
+  +dimensions
+  :background url('/images/buttons/save.png')
+  :width 36px
+.save_button:active
+  +active_background_position

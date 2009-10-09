@@ -14,8 +14,14 @@ body {
     bottom: 23px;
     top: 34px;
     width: 100%; }
+    body .content .column {
+      float: left;
+      height: 100%; }
   body .footer {
     position: absolute;
     bottom: 0;
     height: 23px;
     width: 100%; }
+
+.left {
+  float: left; }

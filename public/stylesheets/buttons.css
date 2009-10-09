@@ -1,0 +1,26 @@
+.add_button {
+  height: 18px;
+  display: block;
+  background: url('/images/buttons/add.png');
+  width: 34px; }
+
+.add_button:active {
+  background-position: 0px -18px; }
+
+.cancel_button {
+  height: 18px;
+  display: block;
+  background: url('/images/buttons/cancel.png');
+  width: 48px; }
+
+.cancel_button:active {
+  background-position: 0px -18px; }
+
+.save_button {
+  height: 18px;
+  display: block;
+  background: url('/images/buttons/save.png');
+  width: 36px; }
+
+.save_button:active {
+  background-position: 0px -18px; }

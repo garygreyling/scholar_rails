@@ -1,3 +1,4 @@
 .bottom_menu {
-  height: 23px;
-  background-image: url('/images/bottom_menu_bg.png'); }
+  background-image: url('/images/bottom_menu_bg.png');
+  height: 20px;
+  padding: 3px 0 0 3px; }

@@ -1,8 +1,8 @@
 !!!
 %html
   %head
-    %title Scholar 1.0
-    = stylesheet_link_tag 'application', 'top_menu', 'bottom_menu', 'listbox', 'student', :cache => true
+    %title Scholar 0.1
+    = stylesheet_link_tag 'application', 'top_menu', 'bottom_menu', 'listbox', 'student', 'buttons', 'forms', :cache => true
     = javascript_include_tag 'listbox', :defaults
 
   %body
@@ -12,3 +12,4 @@
       = yield
     .footer
       .bottom_menu
+        = yield :bottom_menu
