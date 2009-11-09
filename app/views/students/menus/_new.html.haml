@@ -1,0 +1,2 @@
+.left= link_to_function '', remote_function({:url => students_path,:method => :get}.merge(toggle_loading_spinner)), :class => 'cancel_button'
+.left= link_to_function '', remote_function({:url => new_student_path,:method => :get}.merge(toggle_loading_spinner)), :class => 'save_button'

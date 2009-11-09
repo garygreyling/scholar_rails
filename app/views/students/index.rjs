@@ -1,0 +1,2 @@
+page.replace_html 'contents_pane', :partial => 'index'
+page.replace_html 'bottom_menu', :partial => 'students/menus/index'

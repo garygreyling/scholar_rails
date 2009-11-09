@@ -1,12 +1,11 @@
 .column
   - list_box(@students) do |i|
     = i.first_name
-.column 
-  = image_tag('/images/loading_spinner.gif', :style => 'display:none', :id => 'loading')
+.column{:style => 'left: 180px; right: 0px'}
+  = render :partial => '/loading_spinner'
   #contents_pane
-
+    = render :partial => 'index'
+    
 
 - content_for :bottom_menu do
-  .left= link_to_function '', remote_function(:url => new_student_path,:method => :get), :class => 'add_button'
-  .left= link_to_function '', remote_function(:url => new_student_path,:method => :get), :class => 'cancel_button'
-  .left= link_to_function '', remote_function(:url => new_student_path,:method => :get), :class => 'save_button'
+  = render :partial => 'students/menus/index'

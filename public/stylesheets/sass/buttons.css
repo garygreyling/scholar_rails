@@ -29,11 +29,4 @@
   height: 22px;
   display: block;
   background: url('/images/buttons/views.png');
-  width: 117px;
-  background-position: 0px -22px; }
-
-.views_button:hover {
-  background-position: 0px -22px; }
-
-.views_button:active {
-  background-position: 0px -44px; }
+  width: 117px; }
