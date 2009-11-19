@@ -9,7 +9,13 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20091119171028) do
+ActiveRecord::Schema.define(:version => 20091119180946) do
+
+  create_table "accounts", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "students", :force => true do |t|
     t.string   "first_name"
@@ -20,6 +26,7 @@ ActiveRecord::Schema.define(:version => 20091119171028) do
   end
 
   create_table "users", :force => true do |t|
+    t.integer  "account_id"
     t.string   "login",               :null => false
     t.string   "crypted_password",    :null => false
     t.string   "password_salt",       :null => false

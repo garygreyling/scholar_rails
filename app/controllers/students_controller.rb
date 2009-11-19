@@ -1,6 +1,7 @@
 class StudentsController < ApplicationController
   def index
     @students = Student.all
+    @account = current_account
   end
 
   def new

@@ -1,6 +1,4 @@
 class User < ActiveRecord::Base
+  belongs_to :account
   acts_as_authentic
-  def self.find_by_login_or_email(login)
-    User.find_by_login(login) || User.find_by_email(login)
-  end
 end

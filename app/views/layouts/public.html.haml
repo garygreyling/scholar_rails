@@ -1,0 +1,10 @@
+!!!
+%html
+  %head
+    %title Scholar 0.1
+    = stylesheet_link_tag 'application', 'top_menu', 'bottom_menu', 'listbox', 'student', 'buttons', 'forms', :cache => true
+    = javascript_include_tag 'listbox', :defaults
+
+  %body{:style => 'text-align:center'}
+    .login_form
+      = yield
