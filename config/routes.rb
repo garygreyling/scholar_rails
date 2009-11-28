@@ -1,4 +1,5 @@
 ActionController::Routing::Routes.draw do |map|
+  map.import 'import', :controller => 'import', :action => 'create'
   map.resources :students
   map.resource :user_session
   map.resources :users

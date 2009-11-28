@@ -1,1 +1,4 @@
-= @account.name
+- form_tag import_path, :multipart => true do
+  = file_field_tag :spreadsheet
+  = hidden_field_tag :model_class, :Student
+  = submit_tag 'Import'

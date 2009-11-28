@@ -1,4 +1,5 @@
 class StudentsController < ApplicationController
+  before_filter :save_and_load_spreadsheet, :only => :import
   def index
     @students = Student.all
     @account = current_account
